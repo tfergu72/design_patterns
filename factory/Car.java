@@ -56,7 +56,7 @@ public abstract class Car{
    {
       System.out.println("Accessories:");
       for(int i = 0; i < accessories.size(); i++){
-         System.out.println(accessories.get(i));
+         System.out.println("-"+accessories.get(i));
       }
    }
 }
