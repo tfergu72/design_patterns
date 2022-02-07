@@ -1,5 +1,12 @@
 public class CarFactory {
-    public static Car createCar(String type, String make, String model)
+   /**
+    * Thomas Ferguson 
+    * @param type type of car
+    * @param make make of car
+    * @param model model of car
+    * @return small car if type is small, sedan if type is sedan, luxury if type is luxury 
+    */
+   public static Car createCar(String type, String make, String model)
     {
 
         if(type.equalsIgnoreCase(CarType.SMALL.name())){

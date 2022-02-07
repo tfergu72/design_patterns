@@ -1,9 +1,7 @@
 public class CarStore {
-    
     public CarStore(){
         System.out.println("Welcome to our car store\n");    
     }
-
     public void run() {
         Car car1 = CarFactory.createCar("small", "Ford", "Fiesta");
         System.out.println();
@@ -13,7 +11,6 @@ public class CarStore {
         
         Car car3 = CarFactory.createCar("luxury", "Mercedes", "GT");
     }
-
     public static void main(String[] args){
         CarStore store = new CarStore();
         store.run();

@@ -1,12 +1,23 @@
 public class SedanCar extends Car {
+/**
+ * Thomas Ferguson
+ * @param make make of car
+ * @param model model of car
+ */
     public SedanCar(String make, String model)
     {
         super(make, model);
     }
+/**
+ * Adds frame
+ */
     protected void addFrame()
     {
         System.out.println("Adding a three part frame");
     }
+/**
+ * Adds accessories
+ */
     protected void addAccessories()
     {
         accessories.add(Accessories.FLOOR_MATTS);

@@ -1,16 +1,30 @@
 public class LuxuryCar extends Car {
+/**
+ * Thomas Ferguson
+ * @param make Make of car
+ * @param model model of car
+ */
     public LuxuryCar(String make, String model)
     {
         super(make, model);
     }
+/**
+ * Adds frame
+ */
     protected void addFrame()
     {
         System.out.println("Adding a beautiful frame");
     }
+/**
+ * Adds engine
+ */
     protected void addEngine()
     {
         System.out.println("Adding a Supped up Engine");
     }
+/**
+ * Adds accessories
+ */
     protected void addAccessories()
     {
         accessories.add(Accessories.FLOOR_MATTS);
