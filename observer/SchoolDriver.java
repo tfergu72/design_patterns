@@ -1,11 +1,10 @@
-/**
- * A driver for our student government polling system.
- */
 public class SchoolDriver {
     private static final String CANDIDATE_1 = "Jim Roberts";
     private static final String CANDIDATE_2 = "Cindy Smith";
 
-    public SchoolDriver(){}
+    public SchoolDriver(){
+        
+    }
 
     /**
      * Runs our student government polling system.
